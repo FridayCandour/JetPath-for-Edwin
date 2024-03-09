@@ -1,6 +1,6 @@
 import { JetPath } from "jetpath";
 new JetPath({
-    publicPath: { dir: "/node_modules", route: "/static" },
+    publicPath: { dir: "node_modules", route: "/static" },
     displayRoutes: "UI",
     documentation: {
         name: "JetPath for Edwin",
