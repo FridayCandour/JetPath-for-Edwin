@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jetpath": "^1.4.8"
+  },
+  "scripts": {
+    "comp": "tsc app.routes.ts --target esnext",
+    "start": "node app.routes.js "
+  },
+  "type": "module"
+}
